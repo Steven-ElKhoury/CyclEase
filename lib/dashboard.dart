@@ -59,7 +59,7 @@ class _DashboardPageState extends State<DashboardPage> {
   void initializeMQTT() {
    MQTTAppState _currentState = Provider.of<MQTTAppState>(context, listen: false);
   _manager = MQTTManager(
-    host: '192.168.0.123', // Replace with your MQTT broker's IP
+    host: '', // Replace with your MQTT broker's IP
     topic: 'sensor_data', // Replace with your topic
     identifier: 'dashboard', // Replace with a unique identifier for this client
     state: _currentState!, // Create a new MQTTAppState

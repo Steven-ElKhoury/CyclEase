@@ -1,5 +1,5 @@
 class Constants{
-  static const String uri = 'http://192.168.0.124:3000';
+  static const String uri = ''; // enter IP address of your server here
 }
 
  
