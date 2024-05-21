@@ -21,11 +21,13 @@ The database design is included below for reference:
 ![image](https://github.com/Steven-ElKhoury/CyclEase/assets/128305547/e074b6d4-ed61-4a83-bf53-709253f282cf)
 
 
-To run the application make sure to add the server's IP address in the constants.dart file, the MongoDB passkey in the variables.env file, and the IP of the MQTT device in the dashboard.dart file.
+To run the application make sure to add the server's IP address in the constants.dart file, the MongoDB passkey in the variables.env file, and the IP of the MQTT device in the dashboard.dart file. Write the command flutter pub get in the terminal to download all dependencies for the project.
 
 ![image](https://github.com/Steven-ElKhoury/CyclEase/assets/128305547/0a06f78d-114e-4def-9a65-72662bd1556f)
 
 The above image shows the overall architecture of the system, the MQTT publisher was set up on a raspberry pi and bluetooth communication was used to control the ESP32 which is running the control system.
+
+
 
 
 
